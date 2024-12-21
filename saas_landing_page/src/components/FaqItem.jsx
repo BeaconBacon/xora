@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const FaqItem = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+const Faqitem = () => {
+  return <div>FaqItem</div>;
+};
 
-export default FaqItem
+export default Faqitem;

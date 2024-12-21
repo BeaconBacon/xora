@@ -1,6 +1,7 @@
 import { Element } from "react-scroll";
 import { faq } from "../constants/index";
-import FaqItem from "../components/Faqitem";
+import Faqitem from "../components/Faqitem";
+
 
 const Faq = () => {
   const halfLength = Math.floor(faq.length / 2);
@@ -25,7 +26,7 @@ const Faq = () => {
             </div>
             <div className="relative flex-1 pt-24">
               {faq.slice(0, halfLength).map((item, index) => (
-                <FaqItem key={item.id} faq={item} index={index}/>
+                <Faqitem key={item.id} faq={item} index={index} />
               ))}
             </div>
           </div>
